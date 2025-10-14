@@ -1,0 +1,53 @@
+:root {
+  --bgcolor: #1a79cf;
+}
+
+body {
+  background-color: black;
+  
+}
+
+
+
+#header{
+  background-color: var(--bgcolor);
+  padding: 1%;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar-div {
+	margin: auto;
+	padding-left: 4%;
+}
+
+#title h1{
+	border: 0.4rem white solid;
+  color: coral;
+  margin-left: 6%;
+    font-family: "Gill Sans", "verdana", sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+    margin-right: 3%;
+    padding: 0.5rem;
+}
+
+#navbar {
+  margin: auto;
+}
+
+#navbar a {
+	color: white;
+	padding: 1.5rem;
+	cursor: pointer;
+	text-decoration: none;
+	font-family: "Nimbus Sans L";
+	font-weight: bolder;
+}
+
+.active{
+	background-color: coral;
+	
+}
