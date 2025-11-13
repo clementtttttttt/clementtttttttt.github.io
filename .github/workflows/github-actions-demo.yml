@@ -1,6 +1,5 @@
 name: generate photos list
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-uses: actions/configure-pages@v5
 on: [push]
 jobs:
   Explore-GitHub-Actions:
