@@ -3,9 +3,8 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
   # Runs on pushes targeting the default branch
-  workflow_run:
-    workflows: ["generate photos list"]
-    types: [requested]
+  push:
+      branches: [ "main" ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
