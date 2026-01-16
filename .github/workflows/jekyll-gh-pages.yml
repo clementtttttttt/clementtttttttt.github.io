@@ -5,7 +5,7 @@ on:
   # Runs on pushes targeting the default branch
   workflow_run:
     workflows: ["generate photos list"]
-    types: [completed]
+    types: [requested]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
