@@ -1,5 +1,7 @@
 :root {
   --bgcolor: #1a79cf;
+  --navcolor: #1a59af;
+
 }
 
 body {
@@ -15,35 +17,40 @@ body {
   padding-top: 0.2%;
   padding-bottom: 0.2%;
   display: flex;
-  justify-content: space-between;
 }
 
-#navbar-div {
-	margin: auto;
-}
 
-#title h1{
-	border: 0.4rem white solid;
-  color: coral;
-  margin-left: 6%;
+
+#title{
+	border: 0.8vw white solid;
+		color: coral;
     font-family: "Gill Sans", "verdana", sans-serif;
 	text-transform: uppercase;
 	font-weight: 500;
-    margin-right: 3%;
-    padding: 0.5rem;
+	text-align: center;
+	
+	
+    font-size: 3.5vw;
+    width: 100%;
+    line-height: 0.02;
+
 }
 
+
 #navbar {
-  margin: auto;
+  	align-content: center;
+	display: flex;
+	background-color: var(--navcolor);
 }
 
 #navbar a {
 	color: white;
-	padding: 1.5rem;
+	padding: 0.6rem;
 	cursor: pointer;
 	text-decoration: none;
 	font-family: "Nimbus Sans L";
 	font-weight: bolder;
+	
 }
 
 .active{
