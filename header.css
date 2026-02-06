@@ -3,13 +3,13 @@
 }
 
 body {
-  background-color: black;
+  background-color: gray;
   
 }
 
 
 
-#header{
+#header {
   background-color: var(--bgcolor);
   padding: 1%;
   padding-top: 0.2%;
@@ -20,7 +20,6 @@ body {
 
 #navbar-div {
 	margin: auto;
-	padding-left: 4%;
 }
 
 #title h1{
@@ -51,34 +50,3 @@ body {
 	background-color: coral;
 	
 }
-
-#games-container {
-
-	background-color: #838383;
-	padding: 0.3%;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.game-item{
-	background-color: #0050b0;
-	margin: 4px;
-	max-width: 45vw;
-	padding: 0;
-	text-decoration: none;
-
-}
-.game-item img {
-	width: auto\9;
-	max-width: 100%;
-}
-
-.game-item h2 {
-	color: white;
-	font-family: 'Frutiger', sans-serif;
-	text-align: center;
-	width: 100%;
-	text-decoration: none;
-}
-
-
