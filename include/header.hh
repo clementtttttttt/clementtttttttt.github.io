@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="/header.css">
 
-<hgroup id="header">
+<header id="header">
 		<div id="title">
 				<p>clementtttttttt's<br>fabulous games and stuff</p>
 		</div>
 
-</hgroup>
+</header>
 <nav id="navbar">
 				<a id="gamez" href="/wasmgamez.html">WASM Gamez</a>
 				<a id="port" href="/portfolio.html" >Photography portfolio</a>
