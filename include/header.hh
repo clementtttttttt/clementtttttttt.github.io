@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="/header.css">
 
 <hgroup id="header">
 		<div id="title">
@@ -7,10 +7,10 @@
 
 </hgroup>
 <nav id="navbar">
-				<a id="gamez" href="wasmgamez.html">WASM Gamez</a>
-				<a id="port" href="portfolio.html" >Photography portfolio</a>
-				<a id="elec" href="electronics.html">Electronics shenanigans</a>
-				<a id="abm" href="index.html">About me</a>
+				<a id="gamez" href="/wasmgamez.html">WASM Gamez</a>
+				<a id="port" href="/portfolio.html" >Photography portfolio</a>
+				<a id="elec" href="/electronics.html">Electronics shenanigans</a>
+				<a id="abm" href="/index.html">About me</a>
 </nav>
 	
 	

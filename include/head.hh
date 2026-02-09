@@ -1,4 +1,10 @@
-
+ <!-- 
+ C preprocessor weirdness fixes:
+ 
+ #undef unix
+ 
+ 
+  --> 
 <!DOCTYPE html>
 <head>
  <meta charset="UTF-8">
@@ -6,7 +12,6 @@
  <link href="https://fonts.cdnfonts.com/css/nimbus-sans-l" rel="stylesheet">
  <link href="https://fonts.cdnfonts.com/css/frutiger" rel="stylesheet">
  <link href="https://fonts.cdnfonts.com/css/gill-sans-2" rel="stylesheet">
- <link rel="stylesheet" href="index.css">
 
  <title>clementtttttttt's wasm games and stuff</title>
  
