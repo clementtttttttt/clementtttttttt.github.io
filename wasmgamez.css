@@ -17,16 +17,24 @@
 
 }
 .game-item img {
-	width: auto\9;
-	max-width: 100%;
+	width: 100%;
 }
 
-.game-item h2 {
+.game-item {
 	color: white;
 	font-family: 'Frutiger', sans-serif;
 	text-align: center;
-	width: 100%;
 	text-decoration: none;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
 }
+
+.game-item h2{
+	max-height: 100%;
+	margin: auto;
+	padding: 0.5em;
+}
+
 
 

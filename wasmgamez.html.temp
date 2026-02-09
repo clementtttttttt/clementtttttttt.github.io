@@ -7,28 +7,28 @@
 	MARK_ACTIVE("gamez")
 	<div id="games-container">
 		<a class="game-item" href="/Pong.game/pong.html">
-			<img src="pong.png">
-			<h2><p> Pong. </p></h2>
+			<img src="pong.png" alt="pong">
+			<h2>Pong.</h2>
 		</a>
-		<a class="game-item" href="/Tetris.game/tetris.html" class="game-item">
-			<img src="tetris.png">
-			<h2><p> Tetris. </p></h2>
+		<a class="game-item" href="/Tetris.game/tetris.html" >
+			<img src="tetris.png" alt="tetris">
+			<h2>Tetris.</h2>
 		</a>
-		<a class="game-item"  href="/minceraft/minceraft.html" class="game-item">
-			<img src="minceraft.png">
-			<h2><p> Minceraft. </p></h2>
+		<a class="game-item" href="/minceraft/minceraft.html" >
+			<img src="minceraft.png" alt="minceraft">
+			<h2>Minceraft.</h2>
 		</a>
 		<a class="game-item" href="/Breakout.game/breakout.html">
-			<img src="breakout.png">
-			<h2><p > Breakout. </p></h2>
+			<img src="breakout.png" alt="breakout">
+			<h2>Breakout.</h2>
 		</a>
 		<a class="game-item"  href="/Pacman.game/pacman.html">
-			<img src="pacman.png">
-			<h2><p> Pacman. </p></h2>
+			<img src="pacman.png" alt="pacman">
+			<h2>Pacman.</h2>
 		</a>
 		<a class="game-item" href="/Vielsprachig/build/vielsprachig.html">
-			<img src="vielsprachig.png">
-			<h2><p> Vielsprachig. </p></h2>
+			<img src="vielsprachig.png" alt="vielsprachig">
+			<h2>Vielsprachig.</h2>
 		</a>
 	</div>
 
