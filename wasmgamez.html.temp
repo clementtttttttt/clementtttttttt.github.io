@@ -1,7 +1,8 @@
 #include "include/head.hh"
-<link rel="stylesheet" href="wasmgamez.css">
 
 <body>
+	<link rel="stylesheet" href="wasmgamez.css">
+
 	#include "include/header.hh"
 	MARK_ACTIVE("gamez")
 	<div id="games-container">

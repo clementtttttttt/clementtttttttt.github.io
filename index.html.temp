@@ -1,16 +1,19 @@
 #include "include/head.hh"
-<link rel="stylesheet" href="index.css">
 
 <body>
+	<link rel="stylesheet" href="index.css">
+
 	#include "include/header.hh"
 	MARK_ACTIVE("abm")
 	<article id="aboutme">
 		<h1>About me</h1>
+		  <div class="art_content">
 		<p>Hello. I'm Clement Poon, a Computer Science student at Queen Mary University of London, and I have a passion for embedded systems engineering.
 		
 		</p>
 		<p>I started my programming journey back in 2020, when I took my first C++ course on codecademy. Shortly after I learnt 8086 assembly and wrote my very first "operating system" at the age of 13, named <a href="https://github.com/clementtttttttt/NetDOS">NetDOS</a>. It has since snowballed into an integral part of my identity.</p>
 		<p>In my free time, I also work with low power electronics and modify cheap remote controlled cars as a hobby. I am also an amateur jazz pianist, and my current obession is the pianist Bill Evans. You can find out more about my jazz piano obsession here(TODO).</p>
+		</div>
 	</article>
 
 

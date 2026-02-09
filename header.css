@@ -1,6 +1,7 @@
 :root {
   --bgcolor: #1a79cf;
   --navcolor: #1a59af;
+  --shadowcolor: #0a499f;
 
 }
 
@@ -14,26 +15,26 @@ body {
 #header {
   background-color: var(--bgcolor);
   padding: 1%;
-  padding-top: 0.2%;
-  padding-bottom: 0.2%;
-  display: flex;
 }
 
 
 
 #title{
-	border: 0.8vw white solid;
-		color: coral;
+	border: 0.2em white solid;
+	color: coral;
     font-family: "Gill Sans", "verdana", sans-serif;
 	text-transform: uppercase;
 	font-weight: 500;
 	text-align: center;
 	
+    font-size: 2.5em;
 	
-    font-size: 3.5vw;
-    width: 100%;
-    line-height: 0.02;
+	padding: 0%;
+	line-height: 1;
+}
 
+#title p {
+	margin: 0.4em;
 }
 
 

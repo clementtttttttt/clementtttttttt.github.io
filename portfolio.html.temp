@@ -1,8 +1,8 @@
 #include "include/head.hh"
-<link rel="stylesheet" href="portfolio.css">
 
 <body>
-	
+	<link rel="stylesheet" href="portfolio.css">
+
 	#include "include/header.hh"
 
 	MARK_ACTIVE("port")

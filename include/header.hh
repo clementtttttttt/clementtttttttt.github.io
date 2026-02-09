@@ -2,7 +2,7 @@
 
 <hgroup id="header">
 		<div id="title">
-				<p>clementtttttttt's fabulous games and stuff</p>
+				<p>clementtttttttt's<br>fabulous games and stuff</p>
 		</div>
 
 </hgroup>
