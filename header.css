@@ -38,13 +38,13 @@ body {
 }
 
 
-#navbar {
+nav.navbar {
   	align-content: center;
 	display: flex;
 	background-color: var(--navcolor);
 }
 
-#navbar a {
+nav.navbar a {
 	color: white;
 	padding: 0.6rem;
 	cursor: pointer;

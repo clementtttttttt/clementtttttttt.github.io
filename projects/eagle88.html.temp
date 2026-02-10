@@ -2,6 +2,9 @@
 
 <body>
 		#include "../include/header.hh"
+		#include "../include/elec_header.hh"
+
+		MARK_ACTIVE("ee88")
 
 	<link rel="stylesheet" href="/e88.css">
 		<link rel="stylesheet" href="/index.css">
