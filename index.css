@@ -15,6 +15,17 @@ article {
 
 }
 
+a{
+	color: coral;
+	font-weight: bold;
+
+}
+
+a:visited{
+
+	color: coral;
+}
+
 #aboutme_div h1{
 	display: inline-block;
 
