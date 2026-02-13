@@ -17,16 +17,19 @@
 		<p>I started my programming journey back in 2020, when I took my first C++ course on codecademy. Shortly after I learnt 8086 assembly and wrote my very first "operating system" at the age of 13, named <a href="https://github.com/clementtttttttt/NetDOS">NetDOS</a>. It has since snowballed into an integral part of my identity.</p>
 		<p>In my free time, I also work with low power electronics and modify cheap remote controlled cars as a hobby. I am also an amateur jazz pianist, and my current obession is the pianist Bill Evans. You can find out more about my jazz piano obsession <a href="#jazz">here.</a></p>
 		</div>
+			<hr>
+
 	</article>
 	
 		<script src="https://cdn.jsdelivr.net/gh/Rapsssito/github-profile-badge@latest/src/widget.min.js"></script>
-	
 	<article id="jazz">
 		<h1>Why jazz?</h1>
 		<div class="art_content">
-			<h3>If you don't have the time to read, you can watch the video.</h3>
-			
-			<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uco5FNbjqv0?si=wcD5S0yyvE7c-9_T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>			
+			<h3>If you don't have the time to read, you can watch the videos.</h3>
+			<figure id="bemusic">
+			   <iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/uco5FNbjqv0?si=wcD5S0yyvE7c-9_T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			   <iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/x5arK5GWXG4?si=ti3VlufPXBfUf58m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		   </figure>
 			<p>Classical music gets old because it's always the Mozart, Beethoven, Chopin, etc with minimal variation. Pop music also gets old because it's (almost) always an irritating voice over a 1-5-6-4 chord progression. Stuff like Laufey or Olivia Dean are notable improvements over the repetiveness of pop music but they still sound quantised and just feels "too perfect and mechanical" in terms of phrasing compared to jazz.</p>
 			<p>Jazz is all about making stuff up on the fly. This makes every individual recording and rendition of a jazz standard unique. There is no way to perfectly replicate a specific jazz performance, even with a transcription. </p>
 			
