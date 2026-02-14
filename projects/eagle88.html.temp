@@ -12,7 +12,18 @@
 		<article id="eagle88_stuff">
 			<h1>Eagle-88 computer</h1>	
 			<img src="/projects/e881.jpg" alt="eagle88 computer running demo slideshow program" style="max-width: 100%">
+			<h2>History</h2>
 			<div class="art_content">
+				<p>
+				My idea of building an 8088 based computer can be traced back to 2020. While I did manage to build a small portion of it at first, it did not have any input or output capabilities and I was unable to test it. 
+				</p>
+				<p>
+				Fast forward to 2023: thanks to the EPQ program and my school at the time's electronics lab, I was able add video output to the computer and actually check whether my design actually worked. And it did! It worked almost flawlessly and the software I had coded in the emulator ran on real hardware most of the time, which included a port of WOZMON, and a rudimentary version of Tetris. Later on I would also write a version of BASIC for the computer. 
+				</p>
+			</div>
+			<div class="art_content">
+				
+
 			<h3>Reasons for build</h3>
 			<ul>
 				<li>One of my life goals</li>
