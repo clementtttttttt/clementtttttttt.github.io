@@ -1,7 +1,7 @@
 #include "include/head.hh"
 
 <body>
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="/index.css">
 
 	#include "include/header.hh"
 	
