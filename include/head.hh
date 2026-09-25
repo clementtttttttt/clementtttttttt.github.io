@@ -14,7 +14,7 @@
  <link href="https://fonts.cdnfonts.com/css/frutiger" rel="stylesheet">
  <link href="https://fonts.cdnfonts.com/css/gill-sans-2" rel="stylesheet">
 
- <title>clementtttttttt's wasm games and stuff</title>
+ <title>clementtttttttt's wasm projects site</title>
  
  <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
