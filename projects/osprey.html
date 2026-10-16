@@ -1,0 +1,80 @@
+ <!--
+ C preprocessor weirdness fixes:
+  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <link href="https://fonts.cdnfonts.com/css/nimbus-sans-l" rel="stylesheet">
+ <link href="https://fonts.cdnfonts.com/css/frutiger" rel="stylesheet">
+ <link href="https://fonts.cdnfonts.com/css/gill-sans-2" rel="stylesheet">
+ <title>clementtttttttt's wasm projects site</title>
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+<link rel="stylesheet" href="/header.css">
+<header id="header">
+  <div id="title">
+    <p>clementtttttttt's<br>portfolio site</p>
+  </div>
+</header>
+<nav class="navbar">
+    <a id="abm" href="/index.html">About me</a>
+    <a id="gamez" href="/wasmgamez.html">WASM Gamez</a>
+    <a id="port" href="/portfolio.html" >Photography portfolio</a>
+    <a id="elec" href="/projects/eagle88.html">Electronics Projects</a>
+</nav>
+  <script>document.getElementById("elec").classList.add("active");</script>
+<nav class="navbar">
+    <a id="ee88" href="/projects/eagle88.html" >Eagle-88 microcomputer</a>
+    <a id="eosp" href="/projects/osprey.html">OSPREY PCU</a>
+    <a id="erc" href="/projects/turborc.html">Turbo mod RC cars</a>
+</nav>
+  <script>document.getElementById("eosp").classList.add("active");</script>
+ <link rel="stylesheet" href="/e88.css">
+  <link rel="stylesheet" href="/index.css">
+  <article id="osprey68_stuff">
+   <h1>Osprey-68 Personal Computing Unit</h1>
+   <h2>History</h2>
+   <div class="art_content">
+    <h3>Motivation</h3>
+    <p>
+    After gaining experience from the Eagle-88 project, I decided to develop another unit, this time based on the Motorola 6809 processor.
+    </p>
+    <p>
+    Realising how much I've relied on the internet in recent years, I though it'd be a good idea to replace my phone with something that's more limited, yet has just enough capabilities to breed creative programming solutions. 
+    My goal is to develop a simple text-graphical interface operating system, similar to TempleOS, that can do basic tasks such as taking notes and saving into a FAT-formatted SD CARD, or manage gym plans also saved in an SD CARD.
+    </p>
+    <h3>Building process</h3>
+    <img src="/projects/op68_old.jxl" alt="Osprey 68 old" style="max-width: 100%">
+    <figcaption>Old Osprey-68 build, which uses breadboards</figcaption>
+    <p>
+    The initial build used a breadboard, which proved to be incredibly unreliable. The amount of compacted wire connections meant contact was very poor, leading to frequent bugs with the address bus and data bus.
+    </p>
+    <img src="/projects/op68.jxl" alt="Osprey 68 old" style="max-width: 100%">
+    <figcaption>New Osprey-68 build, which uses a protoboard</figcaption>
+    <p>
+    The new prototype uses a protoboard with soldered connections, which enhanced reliability greatly. However, it also introduced additional problems, such as the leg of the ROM chip breaking due to frequent programming. The 3rd version will be using a PCB and hopefully alleviate previous problems.
+    </p>
+   </div>
+   <div class="art_content">
+   <h3>Software development process</h3>
+    <p>
+    While the SIO chip can be programmed with C, the limitations of the 6809 system meant that hand-written assembly was inevitable. To keep myself organised and avoid getting lost in the code, many macros were used.
+    </p>
+    <p>
+    Currently I'm working on the GUI library of the operating system. I used a crude object-oriented assembly approach to represent elements of the interface, such as menus, buttons, and text. These objects are then put into a queue and drawn as needed.  
+    </p>
+   </div>
+   <div class="art_content">
+   <h3>Specifications</h3>
+   <ul>
+    <li>64 KiB direct access RAM, 16Kx8 banks RAM, 16Kx2 banks ROM </li>
+    <li>6809E or compatible processor @2 Mhz</li>
+    <li>SIO ATmega16 Coprocessor with 320x480 colour display</li>
+    <li>2x 6522 or compatible GPIO ICs for future use</li>
+    <li>Bitbang SD-CARD support</li>
+   </ul>
+ </div>
+ </div>
+</body>

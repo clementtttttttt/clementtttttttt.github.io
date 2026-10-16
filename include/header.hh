@@ -11,7 +11,7 @@
 
 				<a id="gamez" href="/wasmgamez.html">WASM Gamez</a>
 				<a id="port" href="/portfolio.html" >Photography portfolio</a>
-				<a id="elec" href="/projects/eagle88.html">Electronics shenanigans</a>
+				<a id="elec" href="/projects/eagle88.html">Electronics Projects</a>
 </nav>
 	
 	
