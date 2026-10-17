@@ -1,0 +1,46 @@
+#include "../include/head.hh"
+
+<body>
+		#include "../include/header.hh"
+		#include "../include/elec_header.hh"
+
+		MARK_ACTIVE("erc")
+
+	<link rel="stylesheet" href="/e88.css">
+		<link rel="stylesheet" href="/index.css">
+
+		<article id="eerc_stuff">
+			<h1>Turbo Modding RC Cars</h1>	
+			<h2>History</h2>
+			<div class="art_content">
+				<h3>Motivation</h3>
+				<p>I bought some cheap rc-cars from the interwebs, out of curiosity. They work pretty well but the horsepower leaves a lot to be desired.</p>
+				<p>Then, I remembered that Tamiya sells replacement motors for their model cars, which happened to be compatible.
+				
+				<h3>Building process</h3>
+				<p>I started by replacing the motors. However, the original control board was unable to handle the increase current, and kept cutting out. This means that a new higher-power circuit is needed to truly unlock the potential of the motor.</p>
+				<p>I opted for a fully dedicated MOSFET H-bridge circuit. A bit of soldering and connections later and there is a clear improvement in horsepower, allowing the car to burnout its wheels and accelerate incredibly quickly.</p>
+				<img src="/projects/turborc.jxl"  alt="Mod internals" style="max-width: 100%">
+				<p>To enable more fine-grained control of the throttle, I replaced the original control board with an ESP32-C3.</p>
+			</div>
+			<div class="art_content">
+			
+
+			<h3>Software development process</h3>
+			
+				<p>
+				I developed a simple control program for the ESP32-c3 using platformio, that receives controller input from an Android app. Using an Android app meant that I could use a large variety of joysticks to control the car.
+				</p>
+				<p>
+				The latency and unreliability of Bluetooth Low Power meant that many hacks were used in order to keep the controls as real-time as possible.
+				</p>
+			</div>
+			<div class="art_content">
+			
+
+	</div>
+
+	</div>
+
+
+</body>
