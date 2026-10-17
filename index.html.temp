@@ -11,7 +11,7 @@
 				<div style="display: inline-block; margin-left: 1em; vertical-align: middle; padding-bottom: 0.6em;" class="github-profile-badge" data-user="clementtttttttt"></div>
 		</div>
 		<div class="art_content">
-		<p>Hello. I'm Clement Poon, a Computer Science student at Queen Mary University of London, and I have a passion for embedded systems engineering.
+		<p>Hello. I'm Clement Poon, a Computer Science student at Queen Mary University of London based in North London. Currently, my goal is to specialise in embedded systems engineering, and writing assembly code for bare-metal hardware.
 		
 		</p>
 		<p>I started my programming journey back in 2020, when I took my first C++ course on codecademy. Shortly after I learnt 8086 assembly and wrote my very first "operating system" at the age of 13, named <a href="https://github.com/clementtttttttt/NetDOS">NetDOS</a>. It has since snowballed into an integral part of my identity.</p>
@@ -27,7 +27,7 @@
 		</p>
 		<h2>x86_64, i386, 6502/6809 assembly</h2>
 		<p>
-			Picked them up when I was working on my Eagle-88 and Osprey-68 projects. Slight rant but I absolutely hate 8086 assembly, it's designed as a stopgap and it really shows. 6809 is the complete opposite, which ironically made it a bit of a commercial failure. 6502 assembly is basically the same as 6809, except without the fancy costly features such as 8-bit hardware multiplication and an additional register of course. 
+			Picked them up when I was working on my Eagle-88 and Osprey-68 projects. Slight rant but I absolutely despise how poorly planned 8086 assembly is, it's designed as a stopgap and it really shows. 6809 is the complete opposite, which ironically made it a bit of a commercial failure. 6502 assembly is basically the same as 6809, except without the fancy costly features such as 8-bit hardware multiplication and an additional register of course. 
 		</p>
 					
 		<hr>

@@ -56,5 +56,5 @@ nav.navbar a {
 
 .active{
 	background-color: coral;
-	
+	pointer-events:none;
 }
