@@ -1,0 +1,59 @@
+ <!--
+ C preprocessor weirdness fixes:
+  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <link href="https://fonts.cdnfonts.com/css/nimbus-sans-l" rel="stylesheet">
+ <link href="https://fonts.cdnfonts.com/css/frutiger" rel="stylesheet">
+ <link href="https://fonts.cdnfonts.com/css/gill-sans-2" rel="stylesheet">
+ <title>clementtttttttt's wasm projects site</title>
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<script src="/jppp/jppp.js" defer></script>
+<body>
+<link rel="stylesheet" href="/header.css">
+<header id="header">
+  <div id="title">
+    <p>clementtttttttt's<br>portfolio site</p>
+  </div>
+</header>
+<nav class="navbar">
+    <a id="abm" href="/index.html">About me</a>
+    <a id="gamez" href="/wasmgamez.html">WASM Gamez</a>
+    <a id="port" href="/portfolio.html" >Photography portfolio</a>
+    <a id="elec" href="/projects/eagle88.html">Electronics Projects</a>
+    <a id="jppp" href="/jppp/jppp.html">Jazz Piano Practice Planner</a>
+</nav>
+  <script>document.getElementById("jppp").classList.add("active");</script>
+  <link rel="stylesheet" href="/index.css">
+  <article id="jppp">
+   <h1>Jazz Piano Practice Planner</h1>
+   <div class="art_content">
+   <h2>My last completed session was on...</h2>
+   <p id="lastTime">dd-mm-yyyy hh-mm-sss</p>
+   <h2>I have to practice...</h2>
+   <p>the chords...</p>
+   <ol>
+    <li id='c1'>Chord 1</li>
+    <li id='c2'>Chord 2</li>
+   </ol>
+   <p>and the types...</p>
+   <ol id="types_list">
+   </ol>
+   <h2>I have practiced...</h2>
+   <div id="butts">
+    <input type="checkbox" id="a" name="ca" value="yes">
+    <label for="a">Root Inv.</label><br>
+    <input type="checkbox" id="b" name="cb" value="yes">
+    <label for="b">1st Inv.</label><br>
+    <input type="checkbox" id="c" name="cc" value="yes">
+    <label for="c">2nd Inv.</label><br>
+    <input type="checkbox" id="d" name="cd" value="yes">
+    <label for="d">3rd Inv.<label><br>
+   </div>
+   </div>
+ </div>
+ </div>
+</body>
