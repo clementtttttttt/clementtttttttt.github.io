@@ -76,6 +76,14 @@ function load(){
 	}
 	
 	
+	const r = document.getElementById('resetb');
+	r.addEventListener("click", function(){
+		createCookie('typesProgress',0, null);
+		createCookie('buttState', 0, null);
+		createCookie('lessonCount', Math.floor(Number(readCookie('lessonCount')) / 7) * 7, null);
+		console.log("A");
+		load();
+	});
 	
 	const buttsDiv = document.getElementById('butts');
 	buttsDiv.addEventListener("click", function (evt) {

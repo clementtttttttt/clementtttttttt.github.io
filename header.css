@@ -51,7 +51,14 @@ nav.navbar a {
 	text-decoration: none;
 	font-family: "Nimbus Sans L";
 	font-weight: bolder;
+	font-size: 3vw;
 	
+}
+
+@media screen and (min-width: 600px) {
+  nav.navbar a {
+     font-size: 20px;
+  }
 }
 
 .active{
